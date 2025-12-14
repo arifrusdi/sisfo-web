@@ -1,0 +1,171 @@
+/* Warna Tema: Biru tua (#003366) dan Oranye (#FF4500) */
+
+/* Pengaturan Dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header & Navigasi */
+header {
+    background: #003366; /* Biru Tua */
+    color: white;
+    padding: 10px 0;
+    border-bottom: 5px solid #FF4500; /* Oranye/Merah */
+}
+
+.logo h1 {
+    float: left;
+    margin: 0;
+}
+
+.highlight {
+    color: #FF4500;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    color: #FF4500;
+}
+
+/* Hero Section (Slogan dan Pencarian) */
+.hero {
+    background: url('https://via.placeholder.com/1500x500?text=Otomotif+Background') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks agar mudah dibaca */
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background: #FF4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Daftar Mobil (Car Grid) */
+.car-list {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.car-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.car-item h3 {
+    color: #003366;
+    margin-top: 0;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #FF4500;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.car-item ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+.car-item li {
+    margin-bottom: 5px;
+}
+
+.spec-label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+}
+
+.btn-detail {
+    display: block;
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-detail:hover {
+    background: #FF4500;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
